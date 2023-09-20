@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #000000;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#btn{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 40px;
+    border-radius: 50px;
+}
+.note{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    border: 2px solid #333;
+    resize: both;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    padding: 32px;
+    border-radius: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* position: absolute; */
+}
+#container{
+    margin: 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
